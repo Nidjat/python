@@ -7,3 +7,4 @@ index = None
 while True:
     index, data = c.kv.get('maximus', index=index)
     print(data['Value'])
+
